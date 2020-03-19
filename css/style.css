@@ -1,0 +1,172 @@
+/* body */
+body {
+  background: black;
+}
+/* header  */
+header h1 {
+  color: rgb(184, 146, 22);
+  text-shadow: 2px 2px 4px gold;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+#headerBlock {
+  margin: 0 auto;
+  width: 100%;
+  height: 75px;
+  animation: rotation 2s ease 0s 1 normal none ;
+  background: lightgoldenrodyellow;
+}
+@keyframes rotation{
+  0% {
+    transform: scale(0);
+    background: purple;
+  }
+  15% {
+    background: blue;
+  }
+  30% {
+    background: lightblue
+  }
+  45% {
+    background: lightgreen;
+  }
+  60% {
+    background: yellow;
+  }
+  75% {
+    background: orange
+  }
+  100% {
+    transform: scale(1) rotate(1440deg);
+    background: red;
+  }
+} 
+
+
+/* #word1 {
+  animation: word1 2s ease-out 3s 1 normal;
+}
+@keyframes word1{
+}
+#word2 {
+  animation:
+}
+#word3 {
+  animation:
+}
+#word4 {
+  animation: 
+} */
+
+
+/* main */
+.imageFirst {
+  transform: rotate( -15deg);
+  text-align: center;
+}
+#fortuneButton {
+  text-align: center;
+}
+#fortuneBtn {
+  padding: 0 auto;
+  height: 3rem;
+  width: 15rem;
+}
+
+#mainText{
+  width: 100%;
+  height: 500px;
+  transition: background 1s ease-in-out;
+  animation: background-change 5s ease 2s 1 normal forwards;
+}
+@keyframes background-change {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: yellowgreen;
+  }
+}
+
+
+/* JavaScript */
+.turn-over {
+  animation: turnOver 1s ease 0s 1 normal none;
+  transform-origin: center;
+}
+@keyframes turnOver{
+  0% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(-195deg);
+  }
+}
+
+.image-second {
+  transform: rotate(-195deg);
+  text-align: center;
+} 
+
+
+
+.buruburu {
+  animation: buruburu 250ms ease 0s infinite normal none;
+}
+@keyframes buruburu{
+  0% {
+    transform: translate(25px,25px);
+  }
+  20% {
+    transform: translate(25px,-25px);
+  }
+  40% {
+    transform: translate(-25px,25px);
+  }
+  60% {
+    transform: translate(-25px,-25px);
+  }
+  80% {
+    transform: translate(-25px,25px);
+  }
+  100% {
+    transform: translate(25px,25px);
+  }
+}
+
+@font-face {
+  font-family: 'Myfont';
+  src: url(../html/font/AoyagiKouzanT/fortuneResultFont.ttf);
+}
+
+.fortuneResultInner {
+  font-size: 50px;
+  text-align: center;
+  font-size: 20rem;
+  font-family: 'Myfont';
+  background-image: url("../html/image/background_00020.jpg");
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* ペンギン
+                                <a href="https://www.ac-illust.com/main/profile.php?id=4owBPL7y&amp;area=1">あまど</a>さんによる<a href="https://www.ac-illust.com/">イラストAC</a>からのイラスト
+
+ぱんだ
+                                <a href="https://www.ac-illust.com/main/profile.php?id=4owBPL7y&amp;area=1">あまど</a>さんによる<a href="https://www.ac-illust.com/">イラストAC</a>からのイラスト
+犬
+                                <a href="https://www.ac-illust.com/main/profile.php?id=iKciwKA9&amp;area=1">kino_k</a>さんによる<a href="https://www.ac-illust.com/">イラストAC</a>からのイラスト
+さる
+                                <a href="https://www.ac-illust.com/main/profile.php?id=z7Xi4Lbm&amp;area=1">あきじあまみぃ</a>さんによる<a href="https://www.ac-illust.com/">イラストAC</a>からのイラスト
+まろ
+                                <a href="https://www.ac-illust.com/main/profile.php?id=security&amp;area=1">セキュリティ</a>さんによる<a href="https://www.ac-illust.com/">イラストAC</a>からのイラスト
+いのしし
+                                <a href="https://www.ac-illust.com/main/profile.php?id=zrigk9ha&amp;area=1">うた♪くま</a>さんによる<a href="https://www.ac-illust.com/">イラストAC</a>からのイラスト
+あしあと２つ
+                                <a href="https://www.ac-illust.com/main/profile.php?id=Qm6xJXpy&amp;area=1">＊TaMaGo.tn＊</a>さんによる<a href="https://www.ac-illust.com/">イラストAC</a>からのイラスト
+鳥
+                                <a href="https://www.ac-illust.com/main/profile.php?id=IQf0SvAJ&amp;area=1">ニッサテール</a>さんによる<a href="https://www.ac-illust.com/">イラストAC</a>からのイラスト */

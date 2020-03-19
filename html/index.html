@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>おみくじ</title>
+</head>
+<body>
+  <header>
+    <div id="headerBlock" class="rotateIn">
+      <h1><span id="word1" >お</span><span id="word2">み</span><span id="word3">く</span><span id="word4">じ</span></h1>
+    </div>
+  </header>
+  <main>
+    【大吉⇒吉⇒中吉⇒小吉⇒末吉⇒凶】
+    <div id="mainText">
+      <div class="img-button">
+        <div id="image" class="imageFirst">
+          <img src="./image/syougatsu2_omijikuji2.png" class="fortuneImg"alt="おみくじイラスト">
+        </div>
+        <div id="fortuneButton">
+          <input type="button" type="button" id="fortuneBtn" value="おみくじで占う">
+        </div>
+      </div>
+        <div id="fortuneResult"></div>
+        <div id="fortuneResultImage"></div>
+    </div>
+  </main>
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/fortune.js"></script>
+</body>
+</html>
